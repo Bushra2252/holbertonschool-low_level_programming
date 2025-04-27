@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
-* main - determines if number is positve or negative
+* main - determines if number is positive or negative
 *
 * Return: Always 0 (Success)
  */
@@ -14,10 +14,16 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 if(n>0)
-printf("%d the number is positive\n",n );
+{
+printf("%d is positive\n", n );
+}
 else if(n == 0)
-printf("%d the number is 0\n",n );
+{
+printf("%d is zero\n", n );
+}
 else
-printf("%d the number is negative\n",n);
+{
+printf("%d is negative\n", n);
+}
 	return (0);
 }
