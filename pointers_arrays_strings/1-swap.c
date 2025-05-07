@@ -1,8 +1,8 @@
 #include "main.h"
 /**
-*swap int - swap value of tow int
-*@a - pointer first
-*@b - pointer second
+*swap int - swaps value of tow integers
+*@a: pointer first
+*@b: pointer second
 *
 *Return: void
 */
