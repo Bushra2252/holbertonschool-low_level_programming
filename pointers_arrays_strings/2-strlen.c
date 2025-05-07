@@ -1,7 +1,7 @@
 #include "main.h"
 /**
 *_strlen - len
-*@*s: pointer
+*@s: pointer
 *
 *Return: void
 */
