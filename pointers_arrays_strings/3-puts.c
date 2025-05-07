@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <unistd.h>
 /**
 *_puts - print
 *@str: po
@@ -8,10 +8,11 @@
 */
 void _puts(char *str)
 {
+int i = 0;
 while (*str != '\0')
 {
 putchar (*str);
 str++;
 }
-putchar ('\n');
+write(1, "\n", 1);
 }
