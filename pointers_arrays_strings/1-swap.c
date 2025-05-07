@@ -1,9 +1,10 @@
 #include "main.h"
 /**
 *swap int - swap value of tow int
-*@a,b - the values
+*@a - pointer first
+*@b - pointer second
 *
-*Return: int
+*Return: void
 */
 void swap_int(int *a, int *b)
 {
