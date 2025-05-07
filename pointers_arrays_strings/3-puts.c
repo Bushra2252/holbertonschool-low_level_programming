@@ -11,8 +11,8 @@ void _puts(char *str)
 int i = 0;
 while (*str != '\0')
 {
-putchar (*str);
-str++;
+write(1, &str[i], 1);
+i++;
 }
 write(1, "\n", 1);
 }
