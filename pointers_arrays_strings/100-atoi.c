@@ -8,7 +8,9 @@
 */
 int _atoi(char *s)
 {
-int i = 0, sign = 1, result = 0;
+int i = 0;
+int sign = 1;
+int result = 0;
 int found_digit = 0;
 
 while (s[i] != '\0')
@@ -31,3 +33,4 @@ i++;
 
 return (sign * result);
 }
+
