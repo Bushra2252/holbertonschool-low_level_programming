@@ -6,7 +6,7 @@
 *@s: the string
 *@accept: the string
 *
-*Return
+*Return: pointer
 */
 char *_strpbrk(char *s, char *accept)
 {
