@@ -1,14 +1,14 @@
 #include <stdio.h>
 /**
-*main -
-*@argc:
-*@argv:
+*main - a
+*@argc:a
+*@argv:a
 *
-*Return:
+*Return:always
 */
 int main(int argc, char *argv[])
 {
 (void)argv;
-printf("%d\n",argc-1);
+printf("%d\n", argc-1);
 return (0);
 }
