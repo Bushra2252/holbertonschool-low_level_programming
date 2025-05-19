@@ -23,7 +23,7 @@ copy = malloc(sizeof(char) * (len + 1));
 while (i < len)
 {
 copy[i] = str[i];
-i++
+i++;
 }
 copy[i] = '\0';
 
