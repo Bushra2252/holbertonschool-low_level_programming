@@ -19,6 +19,8 @@ while (str[len] != '\0')
 len++;
 
 copy = malloc(sizeof(char) * (len + 1));
+if (copy == NULL)
+return (NULL);
 
 while (i < len)
 {
