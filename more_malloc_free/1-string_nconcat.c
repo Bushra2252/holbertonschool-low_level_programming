@@ -20,18 +20,18 @@ if (s2 == NULL)
 s2 = "";
 
 while (s1[len] != '\0')
-len++
+len++;
 while (s2[len2] != '\0')
-len2++
+len2++;
 
 if (n >= len2)
 n = len2;
 
-concat = malloc(len1 + n + 1);
+concat = malloc(len + n + 1);
 if (concat == NULL)
 return (NULL);
 
-for (i = 0; i < len1; i++)
+for (i = 0; i < len; i++)
 concat[i] = s1[i];
 
 for (j = 0; j < n; j++)
