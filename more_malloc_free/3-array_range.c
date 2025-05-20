@@ -3,7 +3,7 @@
 
 /**
 *array_range - create
-*@min: the 
+*@min: the
 *@max: the
 *
 *Return: pointer
@@ -18,7 +18,7 @@ return (NULL);
 
 n = max - min + 1;
 
-array = malloc(n * sizeof(int));
+array = malloc(n *sizeof(int));
 if (array == NULL)
 return (NULL);
 
