@@ -1,26 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
-
-/**
- * struct dog - structure that defines a dog
- * @name: name of the dog
- * @age: age of the dog
- * @owner: owner of the dog
- */
-struct dog
-{
-char *name;
-float age;
-char *owner;
-};
-
+#include "dog.h"
 /**
  * print_dog - prints a struct dog
- * @d: pointer 
- *
- * Description: prints 
- * 
- * 
+ * @d: pointer
  */
 void print_dog(struct dog *d)
 {
