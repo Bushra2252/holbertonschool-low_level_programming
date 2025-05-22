@@ -2,6 +2,24 @@
 #include <stdlib.h>
 #include <string.h>
 
+
+/**
+*_strlen - Returns
+*@s : string
+*
+*Return: len
+*/
+
+int _strlen(char *s)
+{
+int i = 0;
+
+while (s[i] != '\0')
+i++;
+
+return (i);
+}
+
 /**
 *new_dog - new
 *@name: name
@@ -23,7 +41,7 @@ dog2 = malloc(sizeof(dog_t));
 if (dog2 == NULL)
 return (NULL);
 
-name2 = malloc(strlen(name) + 1);
+name2 = malloc(_strlen(name) + 1);
 if (name2 == NULL)
 {
 free(dog2);
@@ -33,7 +51,7 @@ for (i = 0; i < len1; i++)
 name2[i] = name[i];
 name2[i] = '\0';
 
-owner2 = malloc(strlen(owner) + 1);
+owner2 = malloc(_strlen(owner) + 1);
 if (owner2 == NULL)
 {
 free(name2);
