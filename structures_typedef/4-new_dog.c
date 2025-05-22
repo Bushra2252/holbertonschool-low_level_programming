@@ -32,7 +32,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 {
 dog_t *dog2;
 char *name2, *owner2;
-int i, len1 = 0 , len2 = 0;
+int i, j, len1 = 0 , len2 = 0;
 
 if (name == NULL || owner == NULL)
 return (NULL);
@@ -58,10 +58,10 @@ free(name2);
 free(dog2);
 return (NULL);
 }
-i = 0;
-for (i = 0; i < len2; i++)
-owner2[i] = owner[i];
-owner2[i] = '\0';
+
+for (j = 0; j < len2; j++)
+owner2[j] = owner[j];
+owner2[j] = '\0';
 
 dog2->name = name2;
 dog2->age = age;
