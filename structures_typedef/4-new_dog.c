@@ -58,6 +58,7 @@ free(name2);
 free(dog2);
 return (NULL);
 }
+i = 0;
 for (i = 0; i < len2; i++)
 owner2[i] = owner[i];
 owner2[i] = '\0';
