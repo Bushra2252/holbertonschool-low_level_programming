@@ -3,12 +3,6 @@
 #include <stdlib.h>
 
 /**
-* File: 3-main.c
-* Desc: Entry point for the calculator program. Parses arguments
-* and executes the corresponding operation.
-*/
-
-/**
 * main - entry point
 * @argc: argument count
 * @argv: argument vector
