@@ -5,7 +5,7 @@
 * struct op - Struct op
 *
 * @op:operator
-* @f:
+* @f: f
 */
 typedef struct op
 {
